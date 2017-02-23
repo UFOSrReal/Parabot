@@ -39,7 +39,7 @@ public class Core extends Script implements MessageListener, Paintable {
     private int startLevel;
     private int startExp;
 
-    public void messageReceived(MessageEvent messageEvent) {
+    public void messageReceived(MessageEvent messageEvent) {//test
         if (messageEvent.getMessage().contains("You need a woodcutting level")) {
             Context.getInstance().getRunningScript().setState(Script.STATE_STOPPED);
             Logger.addMessage("Don't have correct woodcutting level, stopping script.");
