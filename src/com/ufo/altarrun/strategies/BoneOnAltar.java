@@ -45,7 +45,7 @@ public class BoneOnAltar implements Strategy {
         */
         Menu.sendAction(62, 1080449603, 67, 52);
         Menu.sendAction(62, 1080449587, 51, 52);
-        Menu.sendAction(62, 1080451651, 67, 68);
+        Menu.sendAction(62, 1080451651, 67, 68);//test
         Time.sleep(800);
 
         /*
