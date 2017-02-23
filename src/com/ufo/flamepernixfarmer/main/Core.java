@@ -1,6 +1,9 @@
 package com.ufo.flamepernixfarmer.main;
 
-import com.ufo.flamepernixfarmer.tasks.*;
+import com.ufo.flamepernixfarmer.strategies.Attack;
+import com.ufo.flamepernixfarmer.strategies.HandleTile;
+import com.ufo.flamepernixfarmer.strategies.Loot;
+import com.ufo.flamepernixfarmer.strategies.Teleport;
 import com.ufo.flamepernixfarmer.utils.Variables;
 import org.parabot.environment.api.interfaces.Paintable;
 import org.parabot.environment.api.utils.Timer;

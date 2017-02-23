@@ -1,4 +1,4 @@
-package com.ufo.flamepernixfarmer.tasks;
+package com.ufo.flamepernixfarmer.strategies;
 
 import com.ufo.flamepernixfarmer.utils.Methods;
 import com.ufo.flamepernixfarmer.utils.Monsters;
